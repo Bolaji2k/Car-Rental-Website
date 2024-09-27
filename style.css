@@ -32,6 +32,23 @@
     line-height: 4.25rem;
 }
 
+
+.logo {
+    display: inline-block;
+    background-image: url("assets/images/logo-bg-white.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 24px;
+    height: 24px;
+}
+
+.nav-logo a {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+
 .btn {
     padding: 1rem 1.5rem;
     outline: none;
@@ -724,6 +741,10 @@ nav {
 
     .nav-logo a {
         color: var(--text-dark);
+    }
+
+    .logo {
+        background-image: url("assets/images/logo-bg-dark.png");
     }
 
     .nav-menu-btn {
